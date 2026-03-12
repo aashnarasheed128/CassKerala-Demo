@@ -620,4 +620,36 @@ max-width:100%;
 height:auto;
 }
 }
+  /* LOGO RESPONSIVE */
+
+.logo img{
+height:70px;
+width:auto;
+}
+
+/* Tablet */
+
+@media(max-width:768px){
+
+.logo img{
+height:50px;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:480px){
+
+.logo img{
+height:40px;
+}
+@media(max-width:768px){
+
+.navbar{
+padding:10px 5%;
+}
+
+}
+}
 }
