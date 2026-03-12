@@ -575,5 +575,49 @@ grid-template-columns:repeat(2,1fr);
 .footer-container{
 grid-template-columns:1fr;
 }
+/* MOBILE RESPONSIVE */
 
+@media(max-width:768px){
+
+/* NAVBAR */
+
+.navbar{
+padding:12px 5%;
+}
+
+/* HERO TEXT */
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+/* ABOUT SECTION */
+
+.vision-mission{
+flex-direction:column;
+align-items:center;
+}
+
+/* TEAM */
+
+.team-grid{
+flex-direction:column;
+align-items:center;
+}
+
+/* NAV LINKS */
+
+.nav-links{
+gap:15px;
+font-size:14px;
+}
+img{
+max-width:100%;
+height:auto;
+}
+}
 }
